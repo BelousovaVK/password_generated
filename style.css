@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(249, 247, 247, 0.8);
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+.generation-prewie{
+    width: 50%;
+}
+
+.generation-prewie-p{
+    text-align: center;
+    font-size: 28px;
+}
+
+.generation{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.generation-head{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.generation-parametr{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: hidden;
+    margin-bottom: none;
+    background-color: rgba(128, 142, 145, 0.657);
+}
+
+#generate_btn{
+    height: 50px;
+    width: 200px;
+    margin-top: 3%;
+    background-color: rgb(149, 191, 201);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.password{
+    font-size: 48px;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.generation-input{
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.generation-table{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 90%;
+    align-items: center;
+}
+
+.cell{
+    text-align: center;
+    margin: 5px;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.choose-cell{
+    background-color: green;
+}

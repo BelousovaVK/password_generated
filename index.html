@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password_Generation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="generation-prewie">
+        <h1>Сгенерировать случайный пароль</h1>
+        <p class="generation-prewie-p">Наш онлайн генератор паролей помогает придумать надёжные пароли. Используйте параметры снизу, чтобы создать пароль для любого аккаунта.</p>
+    </div>
+    <div class="generation">
+        <div class="generation-head">
+            <div class="generation-password"></div>
+            <button id="generate_btn">Сгенерировать пароль</button>
+        </div>
+        <div class="generation-parametr">
+            <div class="generation-input">
+                <p>Количество цифр:</p>
+                <input type="number" id="size_number">
+            </div>
+            <div class="generation-input">
+                <p>Количество знаков:</p>
+                <input type="number" id="size_letter">
+            </div>
+            <div class="generation-input">
+                <p>Первый знак:</p>
+                <input type="text" id="first_letter">
+            </div>
+            <div class="generation-input">
+                <p>Последний знак:</p>
+                <input type="text" id="last_letter">
+            </div>
+        </div>
+    </div>
+    <div class="generation-table"></div>
+    <script src="script.js"></script>
+</body>
+</html>
